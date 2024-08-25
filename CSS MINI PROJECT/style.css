@@ -1,0 +1,104 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-size: 25px;
+
+}
+
+.top-nav ul{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 1rem;
+   list-style: none; 
+   font-weight: 400;
+
+}
+
+ul li{
+    color: whitesmoke;
+    
+}
+
+li a{
+    text-decoration: none;
+}
+
+li:hover,li:focus{
+    background: black;
+    color: whitesmoke;
+    cursor: pointer;
+}
+ul button{
+    padding-top: 100px;
+}
+
+ body{
+     background-image: url("./images/hero-bg.jpg");
+     background-repeat: no-repeat; 
+     width: 100%;
+     position: relative;
+      background-size: cover;  
+      z-index: 1;
+    
+} 
+
+body::after{
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+  opacity:initial;
+
+}
+
+.second-nav{
+    display: flex;
+    justify-content: space-between;
+    /* padding: 1.5rem; */
+}
+.gar{
+    font-size: 35px;
+   font-weight: bold;
+   padding-left: 0%;
+
+}
+
+.three-nav{
+    display: flex;
+    list-style: none;
+    justify-content:space-between;
+    gap: 2.5em;    
+}
+
+p{
+  margin-top: 1.10rem;
+  color: white;
+}
+
+h1 ,p{
+    padding-left: 5rem;
+}
+
+section{
+    padding-top: 5rem;
+}
+
+h1{
+    color: white;
+    font-size:200%;
+}
+
+
+.one{
+    color: yellow;
+    font-weight:bolder ;
+    row-gap: 200px;
+}
